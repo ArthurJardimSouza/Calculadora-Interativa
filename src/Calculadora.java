@@ -17,7 +17,7 @@ public static void main(String[] args) {
 
     do {
         System.out.println(CYAN + "╔══════════════════════════════════════════════════╗");
-        System.out.println("║             🧮 " + BOLD + "CALCULADORA JAVA SUPREME" + RESET + CYAN + " 🧮                    ║");
+        System.out.println("║               " + BOLD + "CALCULADORA JAVA SUPREME" + RESET + CYAN + "                      ║");
         System.out.println("╠══════════════════════════════════════════════════╣");
         System.out.println("   " + YELLOW + "Código" + RESET + "  ║          " + YELLOW + "Operação" + RESET + "           ");
         System.out.println("╠══════════════════════════════════════════════════╣");
@@ -27,16 +27,16 @@ public static void main(String[] args) {
         System.out.println("║     " + GREEN + "4" + RESET + "     ║ Divisão                          ");
         System.out.println("║     " + RED + "0" + RESET + "     ║ Sair                            ");
         System.out.println("╚══════════════════════════════════════════════════╝" + RESET);
-        System.out.print(BOLD + "👉 Escolha uma opção: " + RESET);
+        System.out.print(BOLD + "  Escolha uma opção: " + RESET);
         opcao = sc.nextInt(); 
 
         if (opcao == 0) {
-            System.out.println("\n" + PURPLE + "👋 Encerrando a calculadora... Até logo!" + RESET);
+            System.out.println("\n" + PURPLE + "  Encerrando a calculadora... Até logo!" + RESET);
             break;
         }
 
         if (opcao < 0 || opcao > 4) {
-            System.out.println(RED + "\n⚠️  Opção inválida! Tente novamente.\n" + RESET);
+            System.out.println(RED + "\n   Opção inválida! Tente novamente.\n" + RESET);
             continue;
         }
 
