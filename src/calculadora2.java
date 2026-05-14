@@ -22,7 +22,7 @@ public class calculadora2 {
 			System.out
 					.println("|                               [Enter]            [/]                                 ");
 			System.out.println("============================================");
-			System.out.println("😁👉 Escolha a operação (+, - , * , ^ , R , / ) ou pressione 0 para sair: ");
+			System.out.println(" Escolha a operação (+, - , * , ^ , R , / ) ou pressione 0 para sair: ");
 			String escolha = input.nextLine();
 			if (escolha.equals("0")) {
 				System.out.println("Fim do programa. ");
@@ -31,10 +31,10 @@ public class calculadora2 {
 
 			else if (escolha.equals("+")) {
 
-				System.out.println("Informe o primeiro número da equação 👉");
+				System.out.println("Informe o primeiro número da equação ");
 				int num1 = input.nextInt();
 
-				System.out.println("Informe o segundo número da equação 👉");
+				System.out.println("Informe o segundo número da equação ");
 				int num2 = input.nextInt();
 
 				double resultado = num1 + num2;
@@ -43,7 +43,7 @@ public class calculadora2 {
 				System.out.println("============================================");
 
 				System.out.println(
-						" |                                       🤔 Processando...                                            |");
+						" |                                        Processando...                                            |");
 
 				System.out.println("============================================");
 
@@ -52,7 +52,7 @@ public class calculadora2 {
 
 				System.out.println("============================================");
 				System.out.println("|                                        Fim da Operação !"
-						+ " 🥳                                      |");
+						+ "                                        |");
 				System.out.println("============================================");
 				System.out.println("|      pressione 0 para sair ou qualquer tecla para voltar ao menu      |");
 				String escolha2 = input.nextLine();
@@ -63,7 +63,7 @@ public class calculadora2 {
 				if (escolha2.equals("0")) {
 					System.out.println("============================================");
 					System.out.println(
-							"|                                        Fim do programa! 👋                                       |");
+							"|                                        Fim do programa!                                         |");
 					System.out.println("============================================");
 					sair = true;
 					break;
@@ -72,10 +72,10 @@ public class calculadora2 {
 
 			} else if (escolha.equals("-")) {
 
-				System.out.println("Informe o primeiro número da equação 👉");
+				System.out.println("Informe o primeiro número da equação  ");
 				int num1 = input.nextInt();
 
-				System.out.println("Informe o segundo número da equação 👉");
+				System.out.println("Informe o segundo número da equação  ");
 				int num2 = input.nextInt();
 
 				double resultado = num1 - num2;
@@ -84,7 +84,7 @@ public class calculadora2 {
 				System.out.println("============================================");
 
 				System.out.println(
-						" |                                       🤔 Processando...                                            |");
+						" |                                         Processando...                                            |");
 
 				System.out.println("============================================");
 
@@ -93,7 +93,7 @@ public class calculadora2 {
 
 				System.out.println("============================================");
 				System.out.println("|                                        Fim da Operação !"
-						+ " 🥳                                      |");
+						+ "                                        |");
 				System.out.println("============================================");
 				System.out.println("| pressione 0 para sair ou qualquer tecla para voltar ao menu | ");
 				String escolha2 = input.nextLine();
@@ -105,7 +105,7 @@ public class calculadora2 {
 				if (escolha2.equals("0")) {
 					System.out.println("============================================");
 					System.out.println(
-							"|                                        Fim do programa! 👋                                       |");
+							"|                                        Fim do programa!                                        |");
 					System.out.println("============================================");
 					sair = true;
 					break;
@@ -114,10 +114,10 @@ public class calculadora2 {
 
 			} else if (escolha.equals("*")) {
 
-				System.out.println("Informe o primeiro número da equação 👉");
+				System.out.println("Informe o primeiro número da equação  ");
 				int num1 = input.nextInt();
 
-				System.out.println("Informe o segundo número da equação 👉");
+				System.out.println("Informe o segundo número da equação  ");
 				int num2 = input.nextInt();
 
 				double resultado = num1 * num2;
@@ -126,7 +126,7 @@ public class calculadora2 {
 				System.out.println("============================================");
 
 				System.out.println(
-						" |                                       🤔 Processando...                                            |");
+						" |                                         Processando...                                            |");
 
 				System.out.println("============================================");
 
@@ -135,7 +135,7 @@ public class calculadora2 {
 
 				System.out.println("============================================");
 				System.out.println("|                                        Fim da Operação !"
-						+ " 🥳                                      |");
+						+ "                                        |");
 				System.out.println("============================================");
 				System.out.println("| pressione 0 para sair ou enter para voltar ao menu | ");
 				String escolha2 = input.nextLine();
@@ -148,7 +148,7 @@ public class calculadora2 {
 
 					System.out.println("============================================");
 					System.out.println(
-							"|                                        Fim do programa! 👋                                       |");
+							"|                                        Fim do programa!                                         |");
 					System.out.println("============================================");
 					sair = true;
 					break;
@@ -156,10 +156,10 @@ public class calculadora2 {
 				}
 			} else if (escolha.equals("^")) {
 
-				System.out.println("Informe o primeiro número da equação 👉");
+				System.out.println("Informe o primeiro número da equação  ");
 				int num1 = input.nextInt();
 
-				System.out.println("Informe o segundo número da equação 👉");
+				System.out.println("Informe o segundo número da equação  ");
 				int num2 = input.nextInt();
 
 				double resultado = Math.pow(num1, num2);
@@ -168,7 +168,7 @@ public class calculadora2 {
 				System.out.println("============================================");
 
 				System.out.println(
-						" |                                       🤔 Processando...                                            |");
+						" |                                         Processando...                                            |");
 
 				System.out.println("============================================");
 
@@ -177,7 +177,7 @@ public class calculadora2 {
 
 				System.out.println("============================================");
 				System.out.println("|                                        Fim da Operação !"
-						+ " 🥳                                      |");
+						+ "                                        |");
 				System.out.println("============================================");
 				System.out.println("| pressione 0 para sair ou enter para voltar ao menu | ");
 				String escolha2 = input.nextLine();
@@ -191,7 +191,7 @@ public class calculadora2 {
 
 					System.out.println("============================================");
 					System.out.println(
-							"|                                        Fim do programa! 👋                                       |");
+							"|                                        Fim do programa!                                         |");
 					System.out.println("============================================");
 					sair = true;
 					break;
@@ -200,7 +200,7 @@ public class calculadora2 {
 
 			} else if (escolha.equals("R")) {
 
-				System.out.println("Informe o número da equação 👉");
+				System.out.println("Informe o número da equação  ");
 				int num = input.nextInt();
 
 				if (num <= 0) {
@@ -214,7 +214,7 @@ public class calculadora2 {
 				System.out.println("============================================");
 
 				System.out.println(
-						" |                                       🤔 Processando...                                            |");
+						" |                                         Processando...                                            |");
 
 				System.out.println("============================================");
 
@@ -223,7 +223,7 @@ public class calculadora2 {
 
 				System.out.println("============================================");
 				System.out.println("|                                        Fim da Operação !"
-						+ " 🥳                                      |");
+						+ "                                         |");
 				System.out.println("============================================");
 				System.out.println("| pressione 0 para sair ou enter para voltar ao menu | ");
 				String escolha2 = input.nextLine();
@@ -237,7 +237,7 @@ public class calculadora2 {
 
 					System.out.println("============================================");
 					System.out.println(
-							"|                                        Fim do programa! 👋                                       |");
+							"|                                        Fim do programa!                                         |");
 					System.out.println("============================================");
 					sair = true;
 					break;
@@ -246,10 +246,10 @@ public class calculadora2 {
 
 			} else if (escolha.equals("/")) {
 
-				System.out.println("Informe o primeiro número da equação 👉");
+				System.out.println("Informe o primeiro número da equação  ");
 				double num1 = input.nextInt();
 
-				System.out.println("Informe o segundo número da equação 👉");
+				System.out.println("Informe o segundo número da equação  ");
 				double num2 = input.nextInt();
 
 				double resultado = num1 / num2;
@@ -258,7 +258,7 @@ public class calculadora2 {
 				System.out.println("============================================");
 
 				System.out.println(
-						" |                                       🤔 Processando...                                            |");
+						" |                                         Processando...                                            |");
 
 				System.out.println("============================================");
 
@@ -267,7 +267,7 @@ public class calculadora2 {
 
 				System.out.println("============================================");
 				System.out.println("|                                        Fim da Operação !"
-						+ " 🥳                                      |");
+						+ "                                        |");
 				System.out.println("============================================");
 				System.out.println("| pressione 0 para sair ou qualquer tecla para voltar ao menu | ");
 				String escolha2 = input.nextLine();
@@ -279,7 +279,7 @@ public class calculadora2 {
 				if (escolha2.equals("0")) {
 					System.out.println("============================================");
 					System.out.println(
-							"|                                        Fim do programa! 👋                                       |");
+							"|                                        Fim do programa!                                         |");
 					System.out.println("============================================");
 					sair = true;
 					break;
@@ -299,7 +299,7 @@ public class calculadora2 {
 			if (escolha2.equals("0")) {
 				System.out.println("============================================");
 				System.out.println(
-						"|                                        Fim do programa! 👋                                       |");
+						"|                                        Fim do programa!                                         |");
 				System.out.println("============================================");
 				sair = true;
 				break;
